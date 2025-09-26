@@ -1,4 +1,4 @@
-FROM nvidia/cuda:11.1-runtime-ubuntu18.04
+FROM nvidia/cuda:11.1.1-cudnn8-runtime-ubuntu20.04
 
 RUN apt-get update && \
     apt-get upgrade -y && \
